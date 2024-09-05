@@ -1,0 +1,33 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.login-form {
+  background-color: rgb(255, 255, 255);
+  border: solid 4px #000000;
+  padding: 3rem;
+  border-radius: 25px 5px;
+}
+
+.name-logo h2 {
+  color: #000000;
+}
+
+.inputs {
+  display: flex;
+  display:grid;
+  margin-top: 2rem;
+}
+
+.inputs label {
+  color: #000000;
+}
+
+.box-password {
+  display: flex;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}

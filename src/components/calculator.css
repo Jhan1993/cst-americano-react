@@ -1,0 +1,51 @@
+.calculator-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .calculator {
+    width: 300px;
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .display {
+    background-color: #000;
+    color: #fff;
+    font-size: 2em;
+    text-align: right;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columnas para alinear los botones */
+    gap: 10px;
+    width: 100%; /* Asegura que los botones ocupen todo el ancho del contenedor */
+  }
+  
+  button {
+    background-color: #666;
+    color: white;
+    font-size: 1.5em;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%; /* Cada botón ocupará el 100% del espacio dentro de su celda */
+    box-sizing: border-box; /* Asegura que el padding no afecte el tamaño del botón */
+  }
+  
+  button:hover {
+    background-color: #888;
+  }
+  
